@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');/*Link da fonte*/
+.quadradoInicial {
+    background-color: #ffffff;/*Cor de fundo*/
+    border-radius: 20px;/*Deixar a borda arredondadas*/
+    height: 500px;/*Altura da div*/
+    margin: auto;/*Centralizar a caixa */
+    padding-top: 40px;/*Espaçamento de cima*/
+    padding-left: 80px;/*Espaçamento da esquerda*/
+    padding-right: 80px;/*Espaçamento da direita*/
+    padding-bottom: 60px;/*Espaçamento de baixo*/
+    box-shadow: 5px 2px 10px  rgba(0, 0, 0, 0.553);/*Sombreamento horizontal e vertical*/
+}
+body {
+    display: flex; /*organiza elementos de uma página de forma flexível e dinâmica */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;    /* Centraliza os itens verticalmente */
+    height: 100vh; /* Garante que ocupa a altura total da página */
+    margin: 25px; /* Remove margens padrão */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-image: url('img/login-bg.jpg'); /* Colocar imagem de fundo */
+    background-size: cover; /* Ajusta para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo */
+
+  }
+  h1{
+    font-family: "Anton", sans-serif;/*Tipo da fonte*/
+    font-weight: 400;/*Largura s*/
+    color: #000000;/*Cor da letra*/
+    text-align: center;/*Alinha um texto no meio*/
+    padding-bottom: 20px;/*espassamento da parte de baixo*/
+
+  }
+  input{
+    border-radius: 10px;/*Deixar a borda arredondadas*/
+    height: 35px;/*Altura */
+    width: 300px;/*Largura*/
+    margin: auto;/*Centralizar a caixa */
+    margin-bottom: 30px;/*Margin da parte de baixo*/
+ }
+  button{
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;/*Deixar a borda arredondadas*/
+    background-color: #000000;
+    color: white;
+    margin-top: 30px;
+    margin-right: 45px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 5px  black;/*Sombreamento horizontal e vertical*/
+  }
+  form{
+    align-items: center;
+  }
+  img{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  footer{
+    display: block; /*organiza elementos de uma página de forma flexível e dinâmica */
+    align-items:unset ;    /* Centraliza os itens verticalmente */
+  }
+  
+  
