@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Barbosa
+    given-names: Alisson
+  - family-names: Campos
+    given-names: Allexandre
+  - family-names: Paula
+    given-names: Carlos
+  - family-names: Braga
+    given-names: Carolina
+  - family-names: Ferreira
+    given-names: Diego
+  - family-names: Martins
+    given-names: Eduardo
+  - family-names: Andrade
+    given-names: Filipe
+  - family-names: Castro
+    given-names: Gabriel
+  - family-names: Reis
+    given-names: Gabriel
+  - family-names: Passos
+    given-names: Lucas
+  - family-names: Marques
+    given-names: Matheus
+  - family-names: Oliveira
+    given-names: Matheus
+  - family-names: Muneron
+    given-names: Samuel
+  - family-names: Oliveira
+    given-names: Victor
+  - family-names: Teodoro
+    given-names: Warlei
+title: "Sistema-de-Controle-de-Estoque"
+version: 1.0.0
+doi: X
+date-released: 2025-04-28
+url: "https://github.com/Sistema-de-Controle-de-Estoque"
