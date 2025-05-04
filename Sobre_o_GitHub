@@ -1,0 +1,43 @@
+
+## Como funciona este repositório?
+
+Este repositório usa o **GitHub**, uma plataforma para versionamento e colaboração de código. Aqui está o que você precisa saber para começar, mesmo sem experiência anterior:
+
+### O que é um repositório?
+
+Um repositório no GitHub é como uma "pasta na nuvem" que guarda todos os arquivos do projeto, incluindo código, documentos, imagens, etc.
+
+### O que são branches?
+
+Branches (ramificações) são versões paralelas do projeto. Neste repositório, temos:
+
+- **master**: branch principal com o código principal do sistema.
+- **design**: branch usada apenas para armazenar imagens e referências do design. Não é usada no desenvolvimento do sistema.
+
+### O que é um commit?
+
+Um commit é como um "salvar com comentário". Toda vez que alguém faz uma alteração e envia para o GitHub, é registrado com um nome, autor e data.
+
+### O que é uma pull request?
+
+É uma forma de propor mudanças no projeto. Você cria uma nova branch, faz alterações, e então cria uma pull request para discutir e revisar antes de unir as mudanças à branch principal.
+
+---
+
+## Como contribuir com o projeto?
+
+1. Crie uma nova branch com seu nome ou com o nome da funcionalidade que vai trabalhar.
+2. Faça suas alterações e envie para o repositório.
+3. Acesse o GitHub e clique em **"Compare & pull request"** para enviar sua sugestão de mudança.
+
+---
+
+## Dicas para quem nunca usou GitHub
+
+- Não tenha medo de errar! O GitHub salva todo o histórico e permite voltar atrás.
+- Sempre trabalhe em uma branch separada para evitar conflitos no projeto principal.
+- Use mensagens de commit claras, explicando o que você alterou.
+
+---
+
+**Qualquer dúvida, estamos aqui pra aprender juntos!**
