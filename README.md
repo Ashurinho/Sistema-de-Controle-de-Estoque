@@ -1,55 +1,75 @@
-## Sistema de Controle de Estoque
+# Sistema de Controle de Estoque
 
-Este repositório contém o projeto de um **Sistema de Controle de Estoque**, desenvolvido por nosso grupo como parte do curso técnico. O sistema tem como objetivo gerenciar a entrada, saída e organização de produtos de forma simples e prática.
+`INSTITUIÇÃO DE ENSINO: Escola Estadual Técnico Industrial Professor Fontes`
 
-## Funcionalidades principais (em desenvolvimento)
+`CURSO: Técnico em Informática`
+
+`DISCIPLINA: Projeto Integrador`
+
+`MÓDULO 3`
+
+Descrição do projeto
+
+Este repositório contém o projeto de um **Sistema de Controle de Estoque**, desenvolvido por nosso grupo como parte do curso técnico. O sistema tem como objetivo gerenciar a entrada, saída e organização de produtos de forma simples e prática, com as seguintes funcionalidades em desenvolvimento:
 
 - Cadastro de produtos
 - Registro de entrada e saída de itens
 - Atualização automática de quantidades em estoque
 - Consulta e filtragem de produtos
 
----
+## Integrantes
 
-## Como funciona este repositório?
+* Alisson Barbosa
 
-Este repositório usa o **GitHub**, uma plataforma para versionamento e colaboração de código. Aqui está o que você precisa saber para começar, mesmo sem experiência anterior:
+* Allexandre Campos
 
-### O que é um repositório?
+* Carlos Paula
 
-Um repositório no GitHub é como uma "pasta na nuvem" que guarda todos os arquivos do projeto, incluindo código, documentos, imagens, etc.
+* Carolina Braga
 
-### O que são branches?
+* Diego Ferreira
 
-Branches (ramificações) são versões paralelas do projeto. Neste repositório, temos:
+* Eduardo Martins
 
-- **master**: branch principal com o código principal do sistema.
-- **design**: branch usada apenas para armazenar imagens e referências do design. Não é usada no desenvolvimento do sistema.
+* Filipe Andrade
 
-### O que é um commit?
+* Gabriel Castro
 
-Um commit é como um "salvar com comentário". Toda vez que alguém faz uma alteração e envia para o GitHub, é registrado com um nome, autor e data.
+* Gabriel Reis
 
-### O que é uma pull request?
+* Lucas Passos
 
-É uma forma de propor mudanças no projeto. Você cria uma nova branch, faz alterações, e então cria uma pull request para discutir e revisar antes de unir as mudanças à branch principal.
+* Matheus Marques
 
----
+* Matheus Oliveira
 
-## Como contribuir com o projeto?
+* Samuel Muneron
 
-1. Crie uma nova branch com seu nome ou com o nome da funcionalidade que vai trabalhar.
-2. Faça suas alterações e envie para o repositório.
-3. Acesse o GitHub e clique em **"Compare & pull request"** para enviar sua sugestão de mudança.
+* Victor Oliveira
 
----
+* Warlei Teodoro
 
-## Dicas para quem nunca usou GitHub
+Integrantes do projeto
 
-- Não tenha medo de errar! O GitHub salva todo o histórico e permite voltar atrás.
-- Sempre trabalhe em uma branch separada para evitar conflitos no projeto principal.
-- Use mensagens de commit claras, explicando o que você alterou.
+## Professor orientador
 
----
+* Marlon Felipe
 
-**Qualquer dúvida, estamos aqui pra aprender juntos!**
+## Planejamento
+
+| Etapa         | Atividades |
+|  :----:   | ----------- |
+| ETAPA 1         | Elaboração de pesquisas e estruturação inicial do projeto <br> Levantamento de requisitos |
+| ETAPA 2         | Definição de tarefas e funcionalidades <br> Planejamento do design e da usabilidade |
+| ETAPA 3         | Programação de Funcionalidades - HTML e CSS |
+| ETAPA 4        | Programação de Funcionalidades - Back-end <br> Testes de Software |
+| ETAPA 5         | Apresentação |
+
+# Código
+
+<li><a href=""> Código Fonte</a></li>
+
+
+
+
+
