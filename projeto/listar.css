@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8FF;
+    margin: 95px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pesquisa input{
+    padding: 10px;
+}
+
+.pesquisa input[type="submit"]{
+    font-size: 18px;
+    background-color: transparent;
+    border: 0 solid;
+    cursor: pointer;
+    -o-transition-delay: 0.2s;
+}
+
+.pesquisa input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+
+.cadastrar-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastrar-btn a{
+    background-color: #00cccc;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.lista{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table{
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: solid 1px black;
+    width: 80%;
+    background-color: white;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+
+th, td{
+    padding: 10px;
+    border: solid 1px #ddd;
+    text-align: center;
+}
+
+th{
+    background-color: #00cccc;
+    color: white;
+}
+
+table a{
+    background-color: #00cccc;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: solid 0.1px white;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+}
+
+a:hover{
+    background-color: #01b1b1;
+}
