@@ -67,7 +67,7 @@ $result = $conn->query($sql);
     <main> <!-- Conteúdo principal -->
         <div>
         <div class="titulo">
-            <h2>Controle de Estoque</h2> <!-- Título da página -->
+            <h2>Armazém Fontes</h2> <!-- Título da página -->
         </div>
 
         <div class="pesquisa">
