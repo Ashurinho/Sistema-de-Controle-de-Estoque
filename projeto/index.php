@@ -6,8 +6,8 @@ ini_set('session.cookie_lifetime', 0);
 session_start();
 
 // Definindo usuário e senha fixos (hardcoded)
-$usuario_correto = 'admin';
-$senha_correta = '1234';
+$usuario_correto = 'fontes';
+$senha_correta = 'cozinha676997';
 
 // Verifica se o usuário já está logado na sessão
 if (isset($_SESSION['logado']) && $_SESSION['logado'] === true) {
