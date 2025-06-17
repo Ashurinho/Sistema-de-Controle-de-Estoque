@@ -59,12 +59,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <!-- Formulário de login -->
                 <form method="POST" action="">
                     <!-- Campo de usuário -->
-                    <label for="usuario">Usuário:</label>
-                    <input type="text" name="usuario" class="inputs" required><br><br>
-                    
-                    <!-- Campo de senha -->
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="senha" class="inputs" required><br><br>
+                    <div class="input">
+                        <label for="usuario">Usuário:</label>
+                        <input type="text" name="usuario" class="inputs" required>
+                    </div><br>
+
+                        <!-- Campo de senha -->
+                    <div class="input">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" class="inputs" required>
+                    </div><br>
                     
                     <!-- Botão de enviar -->
                     <div class="btn-container">
