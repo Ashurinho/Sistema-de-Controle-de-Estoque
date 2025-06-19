@@ -1,70 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
 }
 
 body{
-    margin: 95px;
-    padding: 0;
-    background: url(img/login-bg.jpg) no-repeat;
-    background-size: 120%;
+    margin: 95px; /* Espaço externo ao redor do body */
+    padding: 0; /* Remove o padding do body */
+    background: url(img/login-bg.jpg) no-repeat; /* Define imagem de fundo sem repetição */
+    background-size: 120%; /* Ajusta o tamanho da imagem de fundo */
 }
 
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+    display: flex; /* Usa flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Altura total */
+    width: 100%; /* Largura total */
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5%;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 450px;
-    width: 500px;
+    display: flex; /* Flexbox para alinhar conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border-radius: 5%; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    height: 450px; /* Altura fixa do container */
+    width: 500px; /* Largura fixa do container */
 }
 
 #logoFontes{
-    height: 150px;
-    margin-bottom: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+    height: 150px; /* Altura da imagem/logo */
+    margin-bottom: 50px; /* Espaço abaixo da imagem */
+    margin-left: 30px; /* Espaço à esquerda da imagem */
+    margin-right: 30px; /* Espaço à direita da imagem */
 }
 
 label{
-    font-weight: bold;
-
+    font-weight: bold; /* Deixa o texto do label em negrito */
 }
 
 .input{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    display: flex; /* Flexbox para os campos de input */
+    justify-content: space-between; /* Espaça os elementos igualmente */
+    gap: 20px; /* Espaço de 20px entre os elementos */
 }
 
 .inputs{
-    border-radius: 5px;
-    border: 0.5px solid black;
-    padding: 5px;
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 0.5px solid black; /* Borda fina preta */
+    padding: 5px; /* Espaçamento interno */
 }
 
 .btn-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    display: flex; /* Flexbox para o container do botão */
+    justify-content: center; /* Centraliza o botão */
+    margin-top: 10px; /* Espaço acima do botão */
 }
 
 #entrar{
-    padding: 8px;
-    background-color: black;
-    border: 0 solid;
-    border-radius: 5px;
-    color: white
+    padding: 8px; /* Espaçamento interno do botão */
+    background-color: black; /* Cor de fundo preta */
+    border: 0 solid; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    color: white /* Cor do texto branca */
 }
 
-/*background-color: #00cccc;*/
+/*background-color: #00cccc;*/ /* Comentário de cor alternativa */

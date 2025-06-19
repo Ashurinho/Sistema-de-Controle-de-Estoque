@@ -37,14 +37,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en"> <!-- Define o idioma da página como inglês -->
 <head>
     <meta charset="UTF-8"> <!-- Define o conjunto de caracteres da página como UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
     <link rel="stylesheet" href="style.css"> <!-- Linka o arquivo CSS externo -->
-    <title>Index</title> <!-- Título da aba do navegador -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- Ícone da aba do navegador -->
+    <title>Login de Usuários</title> <!-- Título da aba do navegador -->
 </head>
 <body>
     <main> <!-- Conteúdo principal da página -->
@@ -64,12 +64,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <input type="text" name="usuario" class="inputs" required>
                     </div><br>
 
-                        <!-- Campo de senha -->
+                    <!-- Campo de senha -->
                     <div class="input">
                         <label for="senha">Senha:</label>
                         <input type="password" name="senha" class="inputs" required>
                     </div><br>
-                    
                     <!-- Botão de enviar -->
                     <div class="btn-container">
                         <input type="submit" value="Entrar" id="entrar">
@@ -79,5 +78,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </main>
 </body>
-</html>
-
