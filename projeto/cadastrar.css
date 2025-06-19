@@ -1,57 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Remove margem padrão de todos os elementos */
+    padding: 0; /* Remove padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
 }
 
-body{
-    margin: 95px;
-    padding: 0;
-    background-color: #F8F8FF;
-    font-weight: bold;
+body {
+    margin: 0; /* Remove margem do body */
+    padding: 0; /* Remove padding do body */
+    background-color: #F8F8FF; /* Cor de fundo suave */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
+    font-weight: 400; /* Peso da fonte padrão */
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+main {
+    display: flex; /* Usa flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha ao topo verticalmente */
+    min-height: 100vh; /* Altura mínima igual à tela */
+    width: 100vw; /* Largura total da tela */
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5%;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 600px;
-    width: 500px;
+.container {
+    display: flex; /* Flexbox para organizar conteúdo */
+    flex-direction: column; /* Coloca itens em coluna */
+    align-items: center; /* Centraliza itens na horizontal */
+    border-radius: 16px; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.08); /* Sombra suave */
+    padding: 40px 32px; /* Espaçamento interno */
+    margin-top: 40px; /* Espaço acima do container */
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 650px; /* Largura máxima do container */
+    max-height: 95vh; /* Altura máxima para evitar corte do botão */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    min-height: 400px; /* Altura mínima do container */
 }
 
-h1{
-    font-size: 30px;
-    margin-bottom: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1 {
+    font-size: 2rem; /* Tamanho grande para o título */
+    margin-bottom: 24px; /* Espaço abaixo do título */
+    color: #222; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Sombra leve */
 }
 
-form input, label, select{
-    margin-top: 20px;
+form {
+    display: flex; /* Flexbox para o formulário */
+    flex-direction: column; /* Campos em coluna */
+    width: 100%; /* Ocupa toda a largura do container */
 }
 
-form input, select{
-    padding: 10px;
-    border-radius: 5px;
-    border: 0;
-    background-color: #ddd;
+form label {
+    margin-top: 14px; /* Espaço acima do label */
+    margin-bottom: 4px; /* Espaço abaixo do label */
+    font-weight: 600; /* Negrito leve */
+    color: #333; /* Cor do texto */
 }
 
-#cadastrar{
-    margin-bottom: 30px;
-    background-color: #00cccc;
-    color: white;
+form input,
+form select {
+    padding: 14px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    background-color: #f3f3f3; /* Fundo claro */
+    font-size: 1em; /* Tamanho da fonte padrão */
+    margin-bottom: 12px; /* Espaço abaixo do campo */
+    transition: border 0.2s; /* Transição suave da borda */
 }
 
-#cadastrar:hover{
-    background-color: #01b1b1;
+form input:focus,
+form select:focus {
+    border: 1.5px solid #00cccc; /* Borda azul ao focar */
+    outline: none; /* Remove contorno padrão */
+    background-color: #e6f7f7; /* Fundo azul claro ao focar */
+}
+
+#cadastrar {
+    margin-top: 22px; /* Espaço acima do botão */
+    margin-bottom: 10px; /* Espaço abaixo do botão */
+    background-color: #00cccc; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-weight: bold; /* Texto em negrito */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 16px; /* Espaçamento interno */
+    font-size: 1.15em; /* Tamanho da fonte maior */
+    cursor: pointer; /* Cursor de mão ao passar */
+    transition: background 0.2s; /* Transição suave da cor de fundo */
+}
+
+#cadastrar:hover {
+    background-color: #01b1b1; /* Cor ao passar o mouse */
+}
+
+a {
+    display: inline-block; /* Permite margin e padding */
+    margin-top: 10px; /* Espaço acima do link */
+    color: #00cccc; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Texto em negrito */
+    transition: color 0.2s; /* Transição suave da cor */
+}
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+    color: #01b1b1; /* Cor ao passar o mouse */
+}
+
+/* Para editar.css */
+form textarea {
+    padding: 14px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    background-color: #f3f3f3; /* Fundo claro */
+    font-size: 1em; /* Tamanho da fonte padrão */
+    margin-bottom: 12px; /* Espaço abaixo do campo */
+    transition: border 0.2s; /* Transição suave da borda */
+}
+form textarea:focus {
+    border: 1.5px solid #00cccc; /* Borda azul ao focar */
+    outline: none; /* Remove contorno padrão */
+    background-color: #e6f7f7; /* Fundo azul claro ao focar */
 }

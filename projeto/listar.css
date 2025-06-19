@@ -1,108 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #F8F8FF;
-    margin: 95px;
+body {
+    background-color: #F8F8FF; /* Cor de fundo suave */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+    display: flex; /* Usa flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha ao topo verticalmente */
+    min-height: 100vh; /* Altura mínima igual à tela */
+    width: 100vw; /* Largura total da tela */
 }
 
-.titulo{
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.titulo {
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.3rem; /* Tamanho da fonte */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin-top: 30px; /* Espaço acima */
+    margin-bottom: 10px; /* Espaço abaixo */
+    font-weight: bold; /* Negrito */
 }
 
-.pesquisa{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.pesquisa {
+    display: flex; /* Flexbox para alinhar itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 20px; /* Espaço acima */
+    margin-bottom: 10px; /* Espaço abaixo */
 }
 
-.pesquisa input{
-    padding: 10px;
+.pesquisa input[type="text"] {
+    padding: 6px; /* Espaçamento interno */
+    border-radius: 5px 0 0 5px; /* Bordas arredondadas à esquerda */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    font-size: 0.95em; /* Tamanho da fonte */
+    width: 160px; /* Largura do campo */
 }
 
-.pesquisa input[type="submit"]{
-    font-size: 18px;
-    background-color: transparent;
-    border: 0 solid;
-    cursor: pointer;
-    -o-transition-delay: 0.2s;
+.pesquisa input[type="submit"] {
+    font-size: 1em; /* Tamanho da fonte */
+    background-color: #00cccc; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 0 5px 5px 0; /* Bordas arredondadas à direita */
+    padding: 6px 14px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de mão */
+    transition: background 0.2s; /* Transição suave da cor de fundo */
 }
 
-.pesquisa input[type="submit"]:hover{
-    transform: scale(1.1);
+.pesquisa input[type="submit"]:hover {
+    background-color: #01b1b1; /* Cor ao passar o mouse */
 }
 
-.cadastrar-btn{
-    display: flex;
-    justify-content: center;
+.cadastrar-btn {
+    display: flex; /* Flexbox para alinhar */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-bottom: 10px; /* Espaço abaixo */
 }
 
-.cadastrar-btn a{
-    background-color: #00cccc;
-    padding: 8px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    margin-top: 30px;
-    font-weight: bold;
+.cadastrar-btn a {
+    background-color: #00cccc; /* Cor de fundo */
+    padding: 6px 14px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado */
+    color: white; /* Cor do texto */
+    margin-top: 10px; /* Espaço acima */
+    font-weight: bold; /* Negrito */
+    transition: background 0.2s; /* Transição suave da cor de fundo */
 }
 
-.lista{
-    padding: 20px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    font-weight: bold;
-    margin-top: 10px;
+.cadastrar-btn a:hover {
+    background-color: #01b1b1; /* Cor ao passar o mouse */
 }
 
-table{
-    border-radius: 8px;
-    border-collapse: collapse;
-    border: solid 1px black;
-    width: 100%;
-    background-color: white;
-    text-align: left;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+.lista {
+    padding: 8px; /* Espaçamento interno */
+    display: flex; /* Flexbox para alinhar */
+    align-items: flex-start; /* Alinha ao topo */
+    justify-content: center; /* Centraliza horizontalmente */
+    font-weight: bold; /* Negrito */
+    margin-top: 10px; /* Espaço acima */
+    width: 100%; /* Ocupa toda a largura */
+    overflow-x: auto; /* Rolagem horizontal se necessário */
 }
 
-th, td{
-    padding: 10px 20px;
-    border: solid 1px #ddd;
-    text-align: center;
+table {
+    border-radius: 8px; /* Bordas arredondadas */
+    border-collapse: collapse; /* Remove espaçamento entre células */
+    border: solid 1px #bbb; /* Borda da tabela */
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 1400px; /* Largura máxima da tabela */
+    background-color: white; /* Fundo branco */
+    text-align: left; /* Alinha texto à esquerda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08); /* Sombra suave */
+    margin: 0 auto; /* Centraliza a tabela */
+    table-layout: fixed; /* Largura fixa das colunas */
 }
 
-th{
-    background-color: #00cccc;
-    color: white;
-    padding: 15px;
+th, td {
+    padding: 18px 18px; /* Espaçamento interno */
+    border: solid 1px #ddd; /* Borda das células */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1em; /* Tamanho da fonte */
+    word-break: break-word; /* Quebra palavras longas */
+    overflow: hidden; /* Esconde conteúdo que passar do limite */
+    text-overflow: ellipsis; /* Adiciona "..." se o texto passar do limite */
+    white-space: nowrap; /* Não quebra linha por padrão */
 }
 
-table a{
-    background-color: #00cccc;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border: solid 0.1px white;
-    border-radius: 10px;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: center;
-    display: flex;
+/* Permite quebra de linha nas colunas Observações e Ações */
+th:nth-child(8), td:nth-child(8),
+th:nth-child(9), td:nth-child(9) {
+    white-space: normal; /* Permite quebra de linha nessas colunas */
 }
 
-a:hover{
-    background-color: #01b1b1;
+th {
+    background-color: #00cccc; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 1em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+
+td {
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    color: #222; /* Cor do texto */
+    font-weight: 400; /* Peso da fonte normal */
+}
+
+/* Proporção das colunas ajustada para melhor distribuição */
+th:nth-child(1), td:nth-child(1) { width: 16%; }  /* Nome */
+th:nth-child(2), td:nth-child(2) { width: 8%; }   /* Quantidade */
+th:nth-child(3), td:nth-child(3) { width: 8%; }   /* Unidade */
+th:nth-child(4), td:nth-child(4) { width: 12%; }  /* Data de Validade */
+th:nth-child(5), td:nth-child(5) { width: 12%; }  /* Data de Entrada */
+th:nth-child(6), td:nth-child(6) { width: 13%; }  /* Fornecedor */
+th:nth-child(7), td:nth-child(7) { width: 8%; }   /* Lote */
+th:nth-child(8), td:nth-child(8) { width: 15%; }  /* Observações */
+th:nth-child(9), td:nth-child(9) { width: 8%; }   /* Ações */
+
+table a {
+    background-color: #00cccc; /* Cor de fundo do link */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+    padding: 4px 8px; /* Espaçamento interno */
+    border-radius: 6px; /* Bordas arredondadas */
+    font-size: 0.92em; /* Tamanho da fonte */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 1px; /* Espaço entre os links */
+    display: inline-block; /* Permite padding e margin */
+    transition: background 0.2s; /* Transição suave da cor de fundo */
+}
+
+table a:hover {
+    background-color: #01b1b1; /* Cor ao passar o mouse */
 }
