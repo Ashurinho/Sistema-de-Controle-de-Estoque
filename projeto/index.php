@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
     <link rel="stylesheet" href="style.css"> <!-- Linka o arquivo CSS externo -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- Ícone da aba do navegador -->
-    <title>Login de Usuários</title> <!-- Título da aba do navegador -->
+    <title>Login de Usuário</title> <!-- Título da aba do navegador -->
 </head>
 <body>
     <main> <!-- Conteúdo principal da página -->
